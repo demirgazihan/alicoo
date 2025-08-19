@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <img src="img/alicoo_digital.png" href="#page-top" alt="" />
+          <img src="img/alicoo_digital.png" href="#page-top" alt="" className="img-navi" />
         </div>
 
         <div

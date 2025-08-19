@@ -241,38 +241,39 @@ a:focus,
 }
 
 /* Header Section */
-.intro {
+#intro {
   display: table;
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-color: #e5e5e5;
+
 }
 
-.intro .overlay {
+#intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.intro h1 {
+#intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.intro h1 span {
+#intro h1 span {
   font-weight: 800;
   color: #fb852d;
 }
 
-.intro p {
+#intro p {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
@@ -732,5 +733,9 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  .img-navi {
+    width: 48px !important;
   }
 }
